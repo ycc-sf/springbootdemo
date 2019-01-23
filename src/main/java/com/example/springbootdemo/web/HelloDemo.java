@@ -7,6 +7,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,14 +24,14 @@ public class HelloDemo {
     private DemoService demoService;
 
     @ApiOperation(value="输出hello")
-    @RequestMapping("/hello")
+    @GetMapping("/hello")
     public String say() {
         System.out.println("Hello springboot");
         return "hello,this is a springboot demo";
     }
 
     @ApiOperation(value="获取所有信息")
-    @RequestMapping("/getAll")
+    @GetMapping("/getAll")
     public List<Student> getAll(){
         log.info("[进入gelAll]");
         List<Student> students = demoService.getStudents();
