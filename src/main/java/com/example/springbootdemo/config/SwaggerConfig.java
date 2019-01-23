@@ -1,7 +1,9 @@
 package com.example.springbootdemo.config;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -11,22 +13,32 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
+@ConditionalOnProperty(prefix = "swagger",value = {"enable"},havingValue = "true")
 @EnableSwagger2
-public class SwaggerConfig {
+public class SwaggerConfig{
+
     @Bean
-    public Docket createRestApi() {
+    public Docket buildDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(buildApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com"))
+                // 要扫描的API(Controller)基础包
+                .apis(RequestHandlerSelectors
+                        .basePackage("com.example"))
                 .paths(PathSelectors.any()).build();
     }
 
-
-    private ApiInfo apiInfo() {
-        return new ApiInfoBuilder()
-                .title("Spring Boot中使用Swagger2构建RESTful APIs")
-                .description("demo springboot")
-                .termsOfServiceUrl("")
+    /**
+     * @param
+     * @return springfox.documentation.service.ApiInfo
+     * @Title: 构建API基本信息
+     * @methodName: buildApiInfo
+     */
+    private ApiInfo buildApiInfo() {
+        return new ApiInfoBuilder().title("API文档")
+                .description("DEMO api")
                 .version("1.0").build();
+
     }
+
 }

@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @EnableAutoConfiguration
 @RequestMapping("/demo")
-@Api(description = "demo接口")
+@Api(value = "demo", description = "示例接口")
 public class HelloDemo {
 
     @Autowired
@@ -32,6 +32,7 @@ public class HelloDemo {
     @ApiOperation(value="获取所有信息")
     @RequestMapping("/getAll")
     public List<Student> getAll(){
+        log.info("[进入gelAll]");
         List<Student> students = demoService.getStudents();
         log.info("[结果]{}", students);
         return students;
