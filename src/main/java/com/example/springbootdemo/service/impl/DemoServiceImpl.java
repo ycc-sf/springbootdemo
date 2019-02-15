@@ -1,7 +1,7 @@
 package com.example.springbootdemo.service.impl;
 
 import com.example.springbootdemo.dao.DemoDao;
-import com.example.springbootdemo.entity.Student;
+import com.example.springbootdemo.entity.DemoEntity;
 import com.example.springbootdemo.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,7 +15,7 @@ public class DemoServiceImpl implements DemoService {
     private DemoDao demoDao;
 
     @Override
-    public List<Student> getStudents() {
-        return demoDao.getStudents();
+    public List<DemoEntity> getAll() {
+        return demoDao.getAll();
     }
 }

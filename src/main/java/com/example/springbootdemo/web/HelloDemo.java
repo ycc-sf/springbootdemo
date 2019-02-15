@@ -1,6 +1,7 @@
 package com.example.springbootdemo.web;
 
-import com.example.springbootdemo.entity.Student;
+import com.example.springbootdemo.common.RestResponse;
+import com.example.springbootdemo.entity.DemoEntity;
 import com.example.springbootdemo.service.DemoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -32,10 +33,10 @@ public class HelloDemo {
 
     @ApiOperation(value="获取所有信息")
     @GetMapping("/getAll")
-    public List<Student> getAll(){
+    public RestResponse<List<DemoEntity>> getAll(){
         log.info("[进入gelAll]");
-        List<Student> students = demoService.getStudents();
+        List<DemoEntity> students = demoService.getAll();
         log.info("[结果]{}", students);
-        return students;
+        return RestResponse.success(students);
     }
 }

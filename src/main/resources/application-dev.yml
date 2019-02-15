@@ -1,0 +1,27 @@
+server:
+  port: 53010
+#  error:
+#    whitelabel:
+#      enabled: true
+
+spring:
+##################### DB #####################
+  datasource:
+    url: jdbc:mysql://123.207.54.159:3306/db_user1
+    username: user1
+    password: 1122
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+    
+
+            
+logging: 
+  config: classpath:log4j2-dev.xml
+  
+swagger: 
+  enable: true
+
+

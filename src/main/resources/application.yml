@@ -1,26 +1,14 @@
-server:
-  port: 53010
-
-#spring:
-#  datasource:
-#    driver-class-name: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://123.207.54.159:3306/db_user1
-#    username: user1
-#    password: 1122
-#    max-active: 20
-#    max-idle: 8
-#    max-maxWait: 100
-#    min-idle: 8
-#    initial-size: 10
-
 spring:
+  application:
+    name: springbootdemo
+  profiles:
+    active: dev
+#  resources:
+#    static-locations: classpath:/
   datasource:
     # 使用阿里的Druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://123.207.54.159:3306/db_user1
-    username: user1
-    password: 1122
     druid:
       # 连接池的配置信息
       # 初始化大小，最小，最大
@@ -66,5 +54,4 @@ spring:
 mybatis:
   configLocation: classpath:mybatis-config.xml
   mapper-locations: classpath:mapper/*.xml
-
 

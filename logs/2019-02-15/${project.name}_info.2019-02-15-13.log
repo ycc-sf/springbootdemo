@@ -1,0 +1,920 @@
+2019-02-15 13:18:24.410 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 15848 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:18:24.422 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:18:25.450 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:18:25.480 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-02-15 13:18:25.749 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6ab5bd4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:18:25.783 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$3638587] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:18:25.788 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:18:25.792 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@51841ac6' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:18:25.805 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$28382839] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:18:25.813 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$4d8d404f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:18:25.818 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:18:25.820 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:18:26.161 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:18:26.172 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:18:26.242 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:18:26.243 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:18:26.249 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:18:26.387 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:18:26.387 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1909 ms
+2019-02-15 13:18:26.488 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:18:29.020 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:18:29.164 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:18:29.221 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:18:29.222 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:18:29.349 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:18:29.659 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:18:29.848 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:18:30.278 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:18:30.527 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/public/**'], []
+2019-02-15 13:18:30.528 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-02-15 13:18:30.528 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/v2/**'], []
+2019-02-15 13:18:30.528 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/swagger**'], []
+2019-02-15 13:18:30.528 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/static/**'], []
+2019-02-15 13:18:30.528 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/resources/**'], []
+2019-02-15 13:18:30.528 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/templates/**'], []
+2019-02-15 13:18:30.571 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fc0d9b4, org.springframework.security.web.context.SecurityContextPersistenceFilter@13aed42b, org.springframework.security.web.header.HeaderWriterFilter@15994b0b, org.springframework.security.web.csrf.CsrfFilter@5fb7ab9c, org.springframework.security.web.authentication.logout.LogoutFilter@4f235e8e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c2e3460, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78065fcd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fbaa7f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42107318, org.springframework.security.web.session.SessionManagementFilter@1a717d79, org.springframework.security.web.access.ExceptionTranslationFilter@53bb71e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@796c68bf]
+2019-02-15 13:18:30.597 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:18:30.738 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:18:30.959 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:18:30.976 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:18:31.005 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:18:31.146 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:18:31.163 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:18:31.175 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:18:31.190 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:18:31.194 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 7.553 seconds (JVM running for 9.043)
+2019-02-15 13:19:08.530 INFO [http-nio-53010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-15 13:19:08.531 INFO [http-nio-53010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2019-02-15 13:19:08.540 INFO [http-nio-53010-exec-1][FrameworkServlet.java:546] - Completed initialization in 9 ms
+2019-02-15 13:19:08.647 ERROR [http-nio-53010-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-15 13:19:10.547 ERROR [http-nio-53010-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-15 13:19:33.807 ERROR [http-nio-53010-exec-5][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-15 13:19:44.964 ERROR [http-nio-53010-exec-9][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-15 13:20:39.603 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 4876 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:20:39.616 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:20:40.772 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:20:40.803 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-02-15 13:20:41.071 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75af4684] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:20:41.101 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e5d0ebe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:20:41.106 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:20:41.107 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@14823f76' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:20:41.110 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$3331b170] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:20:41.116 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$5886c986] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:20:41.118 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:20:41.119 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:20:41.418 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:20:41.428 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:20:41.436 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:20:41.437 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:20:41.494 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:20:41.637 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:20:41.638 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1953 ms
+2019-02-15 13:20:41.731 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:20:44.197 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:20:44.336 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:20:44.394 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:20:44.396 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:20:44.527 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:20:44.803 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:20:44.963 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:20:45.393 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:20:45.609 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/public/**'], []
+2019-02-15 13:20:45.609 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-02-15 13:20:45.610 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/v2/**'], []
+2019-02-15 13:20:45.610 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/swagger**'], []
+2019-02-15 13:20:45.611 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/static/**'], []
+2019-02-15 13:20:45.611 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/resources/**'], []
+2019-02-15 13:20:45.611 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/templates/**'], []
+2019-02-15 13:20:45.650 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ba9f986, org.springframework.security.web.context.SecurityContextPersistenceFilter@439d545c, org.springframework.security.web.header.HeaderWriterFilter@3120495d, org.springframework.security.web.csrf.CsrfFilter@790ac3e0, org.springframework.security.web.authentication.logout.LogoutFilter@6b3f4bd8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e37fb82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c2b6acb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@239b98cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aa3fc9a, org.springframework.security.web.session.SessionManagementFilter@b75b890, org.springframework.security.web.access.ExceptionTranslationFilter@4416e18d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25218a4d]
+2019-02-15 13:20:45.675 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:20:45.819 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:20:46.035 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:20:46.052 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:20:46.082 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:20:46.215 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:20:46.229 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:20:46.241 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:20:46.256 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:20:46.259 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 7.328 seconds (JVM running for 8.509)
+2019-02-15 13:21:01.248 INFO [http-nio-53010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-15 13:21:01.248 INFO [http-nio-53010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2019-02-15 13:21:01.258 INFO [http-nio-53010-exec-1][FrameworkServlet.java:546] - Completed initialization in 10 ms
+2019-02-15 13:28:21.258 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 21612 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:28:21.270 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:28:22.601 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:28:22.635 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-02-15 13:28:22.942 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e4a4584c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:28:22.978 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$7d522086] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:28:22.983 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:28:22.985 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@288ca5f0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:28:22.986 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a226c338] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:28:22.993 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$c77bdb4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:28:22.995 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:28:22.996 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:28:23.322 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:28:23.391 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:28:23.400 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:28:23.400 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:28:23.407 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:28:23.553 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:28:23.554 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2219 ms
+2019-02-15 13:28:23.654 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:28:26.376 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:28:26.527 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:28:26.590 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:28:26.592 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:28:26.720 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:28:27.017 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:28:27.170 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:28:27.619 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:28:27.845 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/public/**'], []
+2019-02-15 13:28:27.846 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-02-15 13:28:27.846 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/v2/**'], []
+2019-02-15 13:28:27.846 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/swagger**'], []
+2019-02-15 13:28:27.846 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/static/**'], []
+2019-02-15 13:28:27.846 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/resources/**'], []
+2019-02-15 13:28:27.847 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/templates/**'], []
+2019-02-15 13:28:27.886 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25de8898, org.springframework.security.web.context.SecurityContextPersistenceFilter@23f60b7d, org.springframework.security.web.header.HeaderWriterFilter@426710f0, org.springframework.security.web.csrf.CsrfFilter@2b2a4332, org.springframework.security.web.authentication.logout.LogoutFilter@83b0d0f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4c2c44e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4aa3fc9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c8ff67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bfb93cf, org.springframework.security.web.session.SessionManagementFilter@5e37fb82, org.springframework.security.web.access.ExceptionTranslationFilter@56da96b3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@510da778]
+2019-02-15 13:28:27.912 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:28:28.065 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:28:28.557 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:28:28.575 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:28:28.606 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:28:28.747 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:28:28.763 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:28:28.774 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:28:28.790 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:28:28.794 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 8.317 seconds (JVM running for 9.614)
+2019-02-15 13:28:40.611 INFO [http-nio-53010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-15 13:28:40.611 INFO [http-nio-53010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2019-02-15 13:28:40.621 INFO [http-nio-53010-exec-1][FrameworkServlet.java:546] - Completed initialization in 10 ms
+2019-02-15 13:28:40.902 ERROR [http-nio-53010-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [login]: would dispatch back to the current handler URL [/login] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-15 13:31:08.374 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 20556 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:31:08.386 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:31:08.601 WARN [main][AbstractApplicationContext.java:554] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.springbootdemo.SpringbootdemoApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+2019-02-15 13:31:08.606 INFO [main][ConditionEvaluationReportLoggingListener.java:142] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-02-15 13:31:08.749 ERROR [main][SpringApplication.java:858] - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.springbootdemo.SpringbootdemoApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:691)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:528)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.example.springbootdemo.SpringbootdemoApplication.main(SpringbootdemoApplication.java:16)
+Caused by: java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:51)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:88)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:75)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:685)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:998)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:332)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 13 more
+2019-02-15 13:32:22.408 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 16692 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:32:22.417 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:32:23.546 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:32:23.578 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-02-15 13:32:23.865 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cae82fe1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:32:23.897 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$6395f81b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:32:23.902 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:32:23.904 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4f66ffc8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:32:23.907 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$886a9acd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:32:23.913 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$adbfb2e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:32:23.915 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:32:23.916 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:32:24.270 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:32:24.280 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:32:24.288 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:32:24.289 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:32:24.295 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:32:24.439 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:32:24.439 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1960 ms
+2019-02-15 13:32:24.535 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:32:27.362 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:32:27.510 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:32:27.567 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:32:27.568 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:32:27.687 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:32:27.969 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:32:28.105 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:32:28.523 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:32:28.730 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/public/**'], []
+2019-02-15 13:32:28.730 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-02-15 13:32:28.730 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/v2/**'], []
+2019-02-15 13:32:28.730 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/swagger**'], []
+2019-02-15 13:32:28.730 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/static/**'], []
+2019-02-15 13:32:28.730 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/resources/**'], []
+2019-02-15 13:32:28.731 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: Ant [pattern='/templates/**'], []
+2019-02-15 13:32:28.769 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52d96367, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c60c681, org.springframework.security.web.header.HeaderWriterFilter@5a3cf824, org.springframework.security.web.csrf.CsrfFilter@1a7163e3, org.springframework.security.web.authentication.logout.LogoutFilter@61808ecd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@70f4f89e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3e151e1f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5be51aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a1371, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ef41ca2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3302035b, org.springframework.security.web.session.SessionManagementFilter@28367da7, org.springframework.security.web.access.ExceptionTranslationFilter@70c491b8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c5a91b4]
+2019-02-15 13:32:28.794 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:32:28.931 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:32:29.208 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:32:29.224 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:32:29.253 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:32:29.385 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:32:29.399 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:32:29.410 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:32:29.429 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:32:29.432 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 7.693 seconds (JVM running for 8.819)
+2019-02-15 13:32:33.764 INFO [http-nio-53010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-15 13:32:33.764 INFO [http-nio-53010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2019-02-15 13:32:33.774 INFO [http-nio-53010-exec-1][FrameworkServlet.java:546] - Completed initialization in 10 ms
+2019-02-15 13:46:41.000 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 4012 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:46:41.008 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:46:42.053 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:46:42.084 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-02-15 13:46:42.417 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8ec63a75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:46:42.456 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$277402af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:46:42.462 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:46:42.466 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@60cf62ad' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:46:42.468 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$4c48a561] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:46:42.475 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$719dbd77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:46:42.477 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:46:42.478 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:46:42.904 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:46:42.919 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:46:42.929 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:46:42.930 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:46:42.937 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:46:43.090 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:46:43.091 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2042 ms
+2019-02-15 13:46:43.193 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:46:45.637 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:46:45.790 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:46:45.852 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:46:45.854 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:46:45.988 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:46:46.281 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:46:46.426 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:46:46.864 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:46:47.121 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d767218, org.springframework.security.web.context.SecurityContextPersistenceFilter@66234b0f, org.springframework.security.web.header.HeaderWriterFilter@7be38eba, org.springframework.security.web.csrf.CsrfFilter@26bb92e2, org.springframework.security.web.authentication.logout.LogoutFilter@70f4f89e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@643f6179, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5e37fb82, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@510da778, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69eb544f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@426710f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20a1b3ae, org.springframework.security.web.session.SessionManagementFilter@5ce3409b, org.springframework.security.web.access.ExceptionTranslationFilter@2cbe455c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@100d0218]
+2019-02-15 13:46:47.147 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:46:47.290 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:46:47.574 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:46:47.593 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:46:47.625 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:46:47.768 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:46:47.786 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:46:47.798 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:46:47.814 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:46:47.818 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 7.429 seconds (JVM running for 8.763)
+2019-02-15 13:46:55.319 INFO [http-nio-53010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-15 13:46:55.319 INFO [http-nio-53010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2019-02-15 13:46:55.329 INFO [http-nio-53010-exec-1][FrameworkServlet.java:546] - Completed initialization in 10 ms
+2019-02-15 13:47:25.887 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 11396 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:47:25.898 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:47:26.913 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:47:26.947 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-02-15 13:47:27.287 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f84bdba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:47:27.330 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e83285f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:47:27.336 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:47:27.339 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1cbc5693' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:47:27.342 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$d0728a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:47:27.350 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$325c40bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:47:27.353 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:47:27.354 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:47:27.796 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:47:27.812 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:47:27.821 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:47:27.822 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:47:27.829 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:47:27.983 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:47:27.983 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2024 ms
+2019-02-15 13:47:28.111 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:47:32.351 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:47:32.536 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:47:32.606 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:47:32.608 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:47:32.763 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:47:33.063 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:47:33.246 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:47:33.758 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:47:34.083 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59aa2fba, org.springframework.security.web.context.SecurityContextPersistenceFilter@62e99458, org.springframework.security.web.header.HeaderWriterFilter@59aa1d1c, org.springframework.security.web.csrf.CsrfFilter@3731e8b6, org.springframework.security.web.authentication.logout.LogoutFilter@535be281, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e89f5bc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6f0ae0ee, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@578d5d02, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22f057b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16f8df70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77f04d1a, org.springframework.security.web.session.SessionManagementFilter@612bb755, org.springframework.security.web.access.ExceptionTranslationFilter@5a35ae82, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79fc4e99]
+2019-02-15 13:47:34.114 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:47:34.303 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:47:34.670 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:47:34.689 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:47:34.725 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:47:34.881 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:47:34.899 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:47:34.912 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:47:34.927 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:47:34.931 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 9.687 seconds (JVM running for 11.539)
+2019-02-15 13:47:38.961 INFO [http-nio-53010-exec-3][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-15 13:47:38.961 INFO [http-nio-53010-exec-3][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2019-02-15 13:47:38.971 INFO [http-nio-53010-exec-3][FrameworkServlet.java:546] - Completed initialization in 10 ms
+2019-02-15 13:47:45.071 INFO [http-nio-53010-exec-2][UserServiceImpl.java:26] - [service-begin]查询用户：admin
+2019-02-15 13:47:45.348 INFO [http-nio-53010-exec-2][UserServiceImpl.java:31] - [service-running]用户名：admin。获取到用户：[User(id=1, username=admin, password=admin, phoneNum=13283829541, createDate=2019-02-14 16:43:43.0, role=null)]
+2019-02-15 13:47:45.348 INFO [http-nio-53010-exec-2][UserServiceImpl.java:38] - [service-end]获取用户成功。User(id=1, username=admin, password=admin, phoneNum=13283829541, createDate=2019-02-14 16:43:43.0, role=null)
+2019-02-15 13:49:07.189 INFO [Thread-25][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:49:07.195 INFO [Thread-25][AbstractEntityManagerFactoryBean.java:597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:49:07.207 INFO [Thread-25][DruidDataSource.java:1825] - {dataSource-1} closed
+2019-02-15 13:49:14.735 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 14396 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:49:14.752 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:49:15.990 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:49:16.026 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-02-15 13:49:16.414 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$893fbbae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:49:16.460 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$21ed83e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:49:16.466 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:49:16.469 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2519026b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:49:16.471 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$46c2269a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:49:16.478 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$6c173eb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:49:16.480 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:49:16.481 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:49:16.931 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:49:16.950 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:49:16.960 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:49:16.960 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:49:16.968 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:49:17.183 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:49:17.184 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2351 ms
+2019-02-15 13:49:17.315 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:49:19.969 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:49:20.144 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:49:20.228 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:49:20.230 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:49:20.390 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:49:20.740 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:49:20.937 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:49:21.496 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:49:21.838 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b0835cb, org.springframework.security.web.context.SecurityContextPersistenceFilter@42805abe, org.springframework.security.web.header.HeaderWriterFilter@18b58c77, org.springframework.security.web.csrf.CsrfFilter@61c145cb, org.springframework.security.web.authentication.logout.LogoutFilter@1870b9b8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5065bdac, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@320ba79f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@68229a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@152035eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29dfc68f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62615be, org.springframework.security.web.session.SessionManagementFilter@3c20e9d6, org.springframework.security.web.access.ExceptionTranslationFilter@28269c65, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e26040f]
+2019-02-15 13:49:21.874 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:49:22.066 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:49:22.447 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:49:22.469 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:49:22.509 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:49:22.671 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:49:22.691 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:49:22.705 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:49:22.723 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:49:22.726 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 8.924 seconds (JVM running for 10.959)
+2019-02-15 13:53:25.468 INFO [Thread-24][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:53:25.475 INFO [Thread-24][AbstractEntityManagerFactoryBean.java:597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:53:25.488 INFO [Thread-24][DruidDataSource.java:1825] - {dataSource-1} closed
+2019-02-15 13:53:38.266 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 16976 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:53:38.276 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:53:39.420 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:53:39.453 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-02-15 13:53:39.783 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58645345] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:53:39.824 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f1121b7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:53:39.829 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:53:39.831 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@251c4280' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:53:39.835 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$15e6be31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:53:39.842 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$3b3bd647] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:53:39.845 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:53:39.846 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:53:40.262 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:53:40.273 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:53:40.284 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:53:40.285 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:53:40.291 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:53:40.449 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:53:40.449 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2108 ms
+2019-02-15 13:53:40.568 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:53:42.529 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:53:42.703 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:53:42.774 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:53:42.776 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:53:42.937 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:53:43.254 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:53:43.427 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:53:43.936 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:53:44.251 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79631db0, org.springframework.security.web.context.SecurityContextPersistenceFilter@21ba0d33, org.springframework.security.web.header.HeaderWriterFilter@912747d, org.springframework.security.web.csrf.CsrfFilter@30cb223b, org.springframework.security.web.authentication.logout.LogoutFilter@297dff3a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5401c6a8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@44da745f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@f837c11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fd63c43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70aa03c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1aca6dc3, org.springframework.security.web.session.SessionManagementFilter@cd93621, org.springframework.security.web.access.ExceptionTranslationFilter@67f266bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6705b763]
+2019-02-15 13:53:44.284 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:53:44.464 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:53:44.744 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:53:44.765 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:53:44.804 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:53:44.984 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:53:45.002 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:53:45.015 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:53:45.034 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:53:45.038 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 7.585 seconds (JVM running for 9.236)
+2019-02-15 13:53:58.750 INFO [http-nio-53010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-15 13:53:58.751 INFO [http-nio-53010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2019-02-15 13:53:58.758 INFO [http-nio-53010-exec-1][FrameworkServlet.java:546] - Completed initialization in 7 ms
+2019-02-15 13:55:53.333 INFO [Thread-21][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:55:53.337 INFO [Thread-21][AbstractEntityManagerFactoryBean.java:597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:55:53.350 INFO [Thread-21][DruidDataSource.java:1825] - {dataSource-1} closed
+2019-02-15 13:55:57.772 INFO [main][StartupInfoLogger.java:50] - Starting SpringbootdemoApplication on LAPTOP-H48RG5JN with PID 22380 (E:\user\docs\workspace\IdeaProjects\springbootdemo\target\classes started by yxb in E:\user\docs\workspace\IdeaProjects\springbootdemo)
+2019-02-15 13:55:57.783 INFO [main][SpringApplication.java:679] - The following profiles are active: dev
+2019-02-15 13:55:58.963 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-15 13:55:58.997 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-02-15 13:55:59.328 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7cfa029] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:55:59.369 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$707d6863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:55:59.375 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:55:59.377 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2eda4eeb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:55:59.381 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$95520b15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:55:59.388 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration$$EnhancerBySpringCGLIB$$baa7232b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:55:59.391 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:55:59.392 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-15 13:55:59.798 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+2019-02-15 13:55:59.812 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:55:59.821 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2019-02-15 13:55:59.822 INFO [main][DirectJDKLog.java:173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-15 13:55:59.830 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\java64\jdk1.7.0_80\bin;D:\Program Files (x86)\java64\jre7\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\apache-maven-3.0.4\M3_HOME\bin;C:\Program Files\PuTTY\;D:\apps\oracle\product\11.2.0\dbhome_1\bin;C:\Users\yxb\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-15 13:55:59.987 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2019-02-15 13:55:59.988 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2154 ms
+2019-02-15 13:56:00.109 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2019-02-15 13:56:02.517 INFO [main][DruidDataSource.java:930] - {dataSource-1} inited
+2019-02-15 13:56:02.684 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-15 13:56:02.755 INFO [main][Version.java:46] - HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-15 13:56:02.756 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2019-02-15 13:56:02.916 INFO [main][JavaReflectionManager.java:49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-15 13:56:03.226 INFO [main][Dialect.java:157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-15 13:56:03.403 INFO [main][AbstractEntityManagerFactoryBean.java:415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:56:03.916 WARN [main][JpaBaseConfiguration.java:234] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-15 13:56:04.268 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@522f0bb8, org.springframework.security.web.context.SecurityContextPersistenceFilter@27a6384b, org.springframework.security.web.header.HeaderWriterFilter@153409b8, org.springframework.security.web.csrf.CsrfFilter@178ba69f, org.springframework.security.web.authentication.logout.LogoutFilter@20f99c18, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7577589, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@26b3fe8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@468f2a6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23365142, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64887fbc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a3a56de, org.springframework.security.web.session.SessionManagementFilter@79ee779c, org.springframework.security.web.access.ExceptionTranslationFilter@33837bd4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4dffa400]
+2019-02-15 13:56:04.304 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-15 13:56:04.493 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:56:04.775 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2019-02-15 13:56:04.796 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2019-02-15 13:56:04.853 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2019-02-15 13:56:05.004 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: sayUsingGET_1
+2019-02-15 13:56:05.023 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+2019-02-15 13:56:05.037 INFO [main][DirectJDKLog.java:173] - Using a shared selector for servlet write/read
+2019-02-15 13:56:05.054 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+2019-02-15 13:56:05.057 INFO [main][StartupInfoLogger.java:59] - Started SpringbootdemoApplication in 7.989 seconds (JVM running for 9.409)
+2019-02-15 13:56:09.495 INFO [http-nio-53010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-15 13:56:09.495 INFO [http-nio-53010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2019-02-15 13:56:09.503 INFO [http-nio-53010-exec-1][FrameworkServlet.java:546] - Completed initialization in 8 ms
+2019-02-15 13:59:54.000 INFO [Thread-22][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-15 13:59:54.005 INFO [Thread-22][AbstractEntityManagerFactoryBean.java:597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-15 13:59:54.019 INFO [Thread-22][DruidDataSource.java:1825] - {dataSource-1} closed
