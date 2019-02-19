@@ -11,10 +11,9 @@ spring:
     username: user1
     password: 1122
   jpa:
-    properties:
-      hibernate:
-        hbm2ddl:
-          auto: update
+    show-sql: true
+    hibernate:
+      ddl-auto: update
     
 
             

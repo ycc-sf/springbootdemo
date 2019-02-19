@@ -2,12 +2,20 @@ package com.example.springbootdemo.entity;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Data;
-import org.hibernate.annotations.Entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Data
-@Entity
+@Entity(name = "demo")
 @ApiModel(value = "DemoEntity", description = "测试实体类")
 public class DemoEntity {
-    private Integer id;
+    @Id
+    private Long id;
+    @Column(nullable = true)
     private String name;
+    @Column(nullable = true)
+    private String age;
+
 }

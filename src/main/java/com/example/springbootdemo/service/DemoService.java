@@ -5,5 +5,12 @@ import com.example.springbootdemo.entity.DemoEntity;
 import java.util.List;
 
 public interface DemoService {
-    List<DemoEntity> getAll();
+
+    DemoEntity findById(Long id);
+
+    DemoEntity findByName(String name);
+
+    DemoEntity findByNameAndAge(String name, int age);
+
+    List<DemoEntity> findAll();
 }
