@@ -3,9 +3,9 @@ package com.example.springbootdemo.service.impl;
 import com.example.springbootdemo.common.BusinessException;
 import com.example.springbootdemo.common.ErrorCode;
 import com.example.springbootdemo.entity.Privilege;
+import com.example.springbootdemo.entity.UserInfo;
 import org.apache.commons.lang.StringUtils;
 import com.example.springbootdemo.dao.UserDao;
-import com.example.springbootdemo.entity.User;
 import com.example.springbootdemo.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,12 +23,12 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     @Override
-    public User getUser(String username) {
+    public UserInfo getUser(String username) {
         logger.info("[service-begin]查询用户：{}", username);
         if(StringUtils.isBlank(username)){
             throw new BusinessException(ErrorCode.E_101002);
         }
-        List<User> users = userDao.findUserByUsername(username);
+        List<UserInfo> users = userDao.findUserByUsername(username);
         logger.info("[service-running]用户名：{}。获取到用户：{}", username, users);
         if(users == null || users.size() == 0){
             throw new BusinessException(ErrorCode.E_101003);

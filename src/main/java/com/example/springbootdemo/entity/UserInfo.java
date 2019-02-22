@@ -8,10 +8,12 @@ import java.sql.Timestamp;
 import java.util.List;
 
 @Data
-@ApiModel(value = "User", description = "用户")
-public class User {
+@ApiModel(value = "UserInfo", description = "用户")
+public class UserInfo {
     @ApiModelProperty("用户id")
     private Long id;
+    @ApiModelProperty("真实姓名")
+    private String realName;
     @ApiModelProperty("用户名")
     private String username;
     @ApiModelProperty("密码")

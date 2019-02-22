@@ -6,12 +6,16 @@ import com.example.springbootdemo.dao.DemoDao;
 import com.example.springbootdemo.jpaRepository.DemoEntityRepository;
 import com.example.springbootdemo.entity.DemoEntity;
 import com.example.springbootdemo.service.DemoService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
+@Slf4j
 @Service
 public class DemoServiceImpl implements DemoService {
 
@@ -32,12 +36,14 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     public DemoEntity findByName(String name) {
+        log.info(name);
         return demoEntityRepository.findByName(name);
     }
 
     @Override
     public DemoEntity findByNameAndAge(String name, int age) {
-        return demoEntityRepository.findByNameAndAge(name, age);
+        System
+        return demoEntityRepository.findByNameAndAge(name, String.valueOf(age));
     }
 
     @Override

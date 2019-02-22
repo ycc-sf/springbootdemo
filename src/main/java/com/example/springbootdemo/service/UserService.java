@@ -1,7 +1,7 @@
 package com.example.springbootdemo.service;
 
 import com.example.springbootdemo.entity.Privilege;
-import com.example.springbootdemo.entity.User;
+import com.example.springbootdemo.entity.UserInfo;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ public interface UserService {
      * @param username
      * @return
      */
-    User getUser(String username);
+    UserInfo getUser(String username);
 
     /**
      * 获取所有权限

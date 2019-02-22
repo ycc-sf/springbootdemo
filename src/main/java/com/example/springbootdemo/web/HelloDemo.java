@@ -57,13 +57,14 @@ public class HelloDemo {
     @ApiOperation(value="通过名字和年龄获取")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "name", value = "名字", required = true, dataType = "String", paramType = "path"),
-            @ApiImplicitParam(name = "age", value = "年龄", required = true, dataType = "Integer", paramType = "path")
+            @ApiImplicitParam(name = "age", value = "年龄", required = true, dataType = "int", paramType = "path")
     })
     @GetMapping("/name/{name}/age/{age}")
     public RestResponse<DemoEntity> findByNameAndAge(@PathVariable("name") String name,
                                                      @PathVariable("age") int age){
-        log.info("[进入]{}  {}", name, age);
+        log.info("[进入]{}, {}", name, age);
         DemoEntity demoEntity = demoService.findByNameAndAge(name, age);
+//        DemoEntity demoEntity = new DemoEntity();
         log.info("[结果]{}", demoEntity);
         return RestResponse.success(demoEntity);
     }

@@ -1,9 +1,10 @@
 package com.example.springbootdemo.dao;
 
 import com.example.springbootdemo.entity.Privilege;
-import com.example.springbootdemo.entity.Role;
-import com.example.springbootdemo.entity.User;
+import com.example.springbootdemo.entity.UserInfo;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
@@ -14,11 +15,12 @@ public interface UserDao {
      * @param username
      * @return
      */
-    List<User> findUserByUsername(@Param("username") String username);
+    List<UserInfo> findUserByUsername(@Param("username") String username);
 
     /**
      * 获取所有权限
      * @return
      */
+    @Select("SELECT * FROM demo_privilege")
     List<Privilege> getAllPrivilege();
  }

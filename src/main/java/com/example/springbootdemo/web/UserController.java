@@ -1,8 +1,7 @@
 package com.example.springbootdemo.web;
 
 import com.example.springbootdemo.common.RestResponse;
-import com.example.springbootdemo.entity.User;
-import com.example.springbootdemo.service.DemoService;
+import com.example.springbootdemo.entity.UserInfo;
 import com.example.springbootdemo.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -16,11 +15,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
-
-import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 @Slf4j
 @RestController
@@ -44,9 +38,9 @@ public class UserController {
     @ApiOperation(value="通过用户名查询用户信息")
     @ApiImplicitParam(name = "username", value = "用户名", required = true, dataType = "String", paramType="path")
     @GetMapping(value = "/{username}")
-    public RestResponse<User> getUser(@PathVariable("username") String username){
+    public RestResponse<UserInfo> getUser(@PathVariable("username") String username){
         logger.info("[web-begin]查询用户：{}", username);
-        User user = userService.getUser(username);
+        UserInfo user = userService.getUser(username);
         logger.info("[web-end]获取用户成功。{}", user);
         return RestResponse.success(user);
     }

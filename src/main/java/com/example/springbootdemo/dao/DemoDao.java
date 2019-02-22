@@ -1,11 +1,6 @@
 package com.example.springbootdemo.dao;
 
 import com.example.springbootdemo.entity.DemoEntity;
-import com.example.springbootdemo.entity.User;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
