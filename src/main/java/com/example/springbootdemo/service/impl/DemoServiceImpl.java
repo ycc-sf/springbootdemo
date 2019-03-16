@@ -2,7 +2,6 @@ package com.example.springbootdemo.service.impl;
 
 import com.example.springbootdemo.common.BusinessException;
 import com.example.springbootdemo.common.ErrorCode;
-import com.example.springbootdemo.dao.DemoDao;
 import com.example.springbootdemo.jpaRepository.DemoEntityRepository;
 import com.example.springbootdemo.entity.DemoEntity;
 import com.example.springbootdemo.service.DemoService;
@@ -18,9 +17,6 @@ import java.util.Optional;
 @Slf4j
 @Service
 public class DemoServiceImpl implements DemoService {
-
-    @Autowired
-    private DemoDao demoDao;
 
     @Autowired
     private DemoEntityRepository demoEntityRepository;
@@ -42,7 +38,6 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     public DemoEntity findByNameAndAge(String name, int age) {
-        System
         return demoEntityRepository.findByNameAndAge(name, String.valueOf(age));
     }
 

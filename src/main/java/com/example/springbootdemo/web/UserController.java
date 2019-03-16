@@ -11,10 +11,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 @Slf4j
 @RestController
@@ -35,15 +37,19 @@ public class UserController {
         return "hello,this is a springbootdemo";
     }
 
-    @ApiOperation(value="通过用户名查询用户信息")
+    @ApiOperation(value="登录")
     @ApiImplicitParam(name = "username", value = "用户名", required = true, dataType = "String", paramType="path")
-    @GetMapping(value = "/{username}")
-    public RestResponse<UserInfo> getUser(@PathVariable("username") String username){
-        logger.info("[web-begin]查询用户：{}", username);
-        UserInfo user = userService.getUser(username);
-        logger.info("[web-end]获取用户成功。{}", user);
+    @PostMapping(value = "/login")
+    public RestResponse<UserInfo> login(@RequestBody UserInfo userInfo, HttpServletResponse response,
+                                        HttpServletRequest request, HttpSession httpSession){
+        logger.info("[web-begin]登录：{}", userInfo);
+        UserInfo user = userService.login(userInfo);
+//        httpSession.setAttribute("userInfo", userInfo);
+        Cookie cookie = new Cookie("realName", user.getRealName());
+        cookie.setPath("/");
+        response.addCookie(cookie);
+        logger.info("[web-end]登陆成功。{}", user);
         return RestResponse.success(user);
     }
-
 
 }

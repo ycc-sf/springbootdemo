@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>欢迎页</title>
 </head>
 <body>
-<h2>欢迎访问</h2>
+<h2>欢迎访问,<span id="realName"></span></h2>
+<!--<input th:if="${session} == null" class="btn btn-outline-primary login " type="submit" value="登陆/注册">
+<div th:if="${session} != null" >
+    <span th:text="${session}"></span>
+</div>-->
 </body>
+<script type="text/javascript" src="plugin/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="application/javascript">
+    $(function(){
+        var coo = $.cookie("realName");
+
+        $("#realName").html(coo);
+    });
+</script>
 </html>

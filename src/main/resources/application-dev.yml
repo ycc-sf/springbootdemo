@@ -7,8 +7,12 @@ server:
 spring:
 ##################### DB #####################
   datasource:
-    url: jdbc:mysql://123.207.54.159:3306/db_user1
-    username: user1
+#    url: jdbc:mysql://123.207.54.159:3306/db_user1
+#    username: root
+#    password:
+
+    url: jdbc:mysql://127.0.0.1:3306/micro-req
+    username: root
     password: 1122
   jpa:
     show-sql: true

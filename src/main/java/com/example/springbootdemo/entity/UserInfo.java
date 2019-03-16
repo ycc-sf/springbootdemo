@@ -18,11 +18,7 @@ public class UserInfo {
     private String username;
     @ApiModelProperty("密码")
     private String password;
-    @ApiModelProperty("手机号")
-    private String phoneNum;
-    @ApiModelProperty("创建时间")
-    private Timestamp createDate;
-    @ApiModelProperty("角色")
-    private List<Role> roles;
+    @ApiModelProperty("角色id")
+    private Long roleId;
 
 }
