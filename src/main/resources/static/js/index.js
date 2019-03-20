@@ -1,5 +1,11 @@
 layui.use(['form','element', 'layer'], function(){
     /* $(".header").load("header.html");*/
+    var thisPosition = {
+        P: 34.812260470921,
+        R: 113.50928629557302,
+        lat: 34.81226,
+        lng: 113.509286
+    };//当前位置坐标
     var form = layui.form
         ,element = layui.element
         ,layer = layui.layer;
@@ -11,7 +17,7 @@ layui.use(['form','element', 'layer'], function(){
     //初始化地图
     var map = new AMap.Map('mapContainer', {
         zoom:11,//级别
-        center: [113.5099, 34.8129],//中心点坐标
+        center: [113.6347424, 34.7218855],//中心点坐标
         viewMode:'3D'//使用3D视图
     });
 
@@ -37,15 +43,16 @@ layui.use(['form','element', 'layer'], function(){
         function onComplete (data) {
             // data是具体的定位信息
             console.log("定位成功", data);
+            layer.msg("定位成功");
+            map.setCenter(data.position);
+            //修改当前位置
+            thisPosition = data.position;
         }
 
         function onError (data) {
             // 定位出错
             // alert("由于浏览器不支持等原因导致定位失败，默认加载郑州市信息");
-            layer.open({
-                title: '定位失败'
-                ,content: '由于浏览器不支持等原因导致定位失败，默认加载郑州市信息'
-            });
+            layer.msg('由于浏览器不支持等原因导致定位失败，默认加载郑州市信息');
         }
     })
 
