@@ -38,45 +38,51 @@
        <li class="layui-nav-item layui-nav-itemed">
 		  <a class="" href="javascript:;">管理1</a>
 		  <dl class="layui-nav-child">
-			<dd><a href="javascript:;" onclick="loadHtml('user/account/index.html')">title1</a></dd>
-			<dd><a href="javascript:;" onclick="loadHtml('${n.url}')">title2</a></dd>
+			<dd><a href="javascript:;" onclick="loadHtml('html/userInfo.html')">title1</a></dd>
+			<dd><a href="javascript:;" onclick="loadHtml('html/userInfo.html')">title2</a></dd>
 		  </dl>
 		</li>
 		<li class="layui-nav-item layui-nav-itemed">
 		  <a class="" href="javascript:;">管理2</a>
 		  <dl class="layui-nav-child">
-			<dd><a href="javascript:;" onclick="loadHtml('${n.url}')">title1</a></dd>
-			<dd><a href="javascript:;" onclick="loadHtml('${n.url}')">title2</a></dd>
+			<dd><a href="javascript:;" onclick="loadHtml('html/userInfo.html')">title1</a></dd>
+			<dd><a href="javascript:;" onclick="loadHtml('html/userInfo.html')">title2</a></dd>
 		  </dl>
 		</li>
-        <li class="layui-nav-item"><a href="javascript:;">个人资料</a></li>
+        <li class="layui-nav-item">
+            <a href="javascript:;" onclick="loadHtml('/admin_whitePage.html')">个人资料</a>
+        </li>
       </ul>
     </div>
   </div>
-  <div class="layui-tab layui-tab-brief">
-	<div class="layui-body layui-tab-content site-demo site-demo-body">
-		<div style="padding:15px;" id="contentDiv">内容主体区域</div>
-	</div>
-  </div>
+
+    <div class="layui-body" style="background-color:#F2F2F2;bottom:0">
+        <!-- 内容主体区域 -->
+        <div style="/*padding:15px;*/" id="contentDiv">内容主体区域</div>
+    </div>
+
 </div>
 </body>
-<script type="text/javascript" src="plugin/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="plugin/jquery/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="plugin/layui/layui.js"></script>
 <script>
 	//JavaScript代码区域
 	layui.use('element', function(){
 	  var element = layui.element;
 	});
+
+    // $("#contentDiv").load("/admin_whitePage.html");
+	loadHtml("/admin_whitePage.html");
+
 	function loadHtml(url){
 //		alert(url);
-		url = url+"&temp="+Math.random();
-		$("#contentDiv").load(url,function(response,status,xhr){
-	        
-	    });
+// 		url = url+"&temp="+Math.random();
+		$("#contentDiv").load(url);
 	}
-	$(function(){
-		$("ul li:first-child dl dd a:first-child").click();
-	});
+
+	// $(function(){
+	// 	$("ul li:first-child dl dd a:first-child").click();
+	// });
 </script>
 
 </html>
