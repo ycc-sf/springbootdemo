@@ -27,6 +27,9 @@
   		width: 90%;
   		margin: 20px auto;
   	}
+  	.rowdiv{
+  		overflow: hidden;
+  	}
   	.rowbody{
   		width: 100%;
   	}
@@ -76,15 +79,14 @@
 <body class="layui-anim layui-anim-scaleSpring">
 	<div class="header">
 		<div class="layui-container layui-bg-black container">
-			<div class="layui-row">
+			<div class="layui-row rowdiv">
 				<div class="layui-col-md2 title">基于springBoot和。。。微需求平台</div>
 				<div class="layui-col-md4 layui-col-md-offset6">
 					<ul class="layui-nav rightnav" lay-filter="">
 						<li class="layui-nav-item">
 					        <a href="javascript:;">
 					          <img src="images/user.png" class="layui-nav-img">
-								<span id="realName">加载中...</span>
-					          <!--<span style="color:#2F4056;">管理员</span>-->
+										<span id="realName">加载中...</span>
 					        </a>
 					        <dl class="layui-nav-child">
 					          <dd><a href="javascript:;">个人资料</a></dd>
@@ -92,9 +94,7 @@
 					          <dd><a href="javascript:;">安全设置</a></dd>
 					        </dl>
 					    </li>
-					    <li class="layui-nav-item"><a href="/login.html">退出
-					    	<!--<span style="color:#2F4056;">退出</span>-->
-					    </a></li>
+					    <li class="layui-nav-item"><a href="/login.html">退出</a></li>
 					</ul>
 				</div>
 			</div>
@@ -138,7 +138,7 @@
 						<i class="iconfont iconsousuoxiangqing" style="font-size:20px;color:#4CADE9;"></i></div>
 					<div class="layui-card-body">
 						<form class="layui-form layui-form-pane" action="">
-							<div class="layui-form-item" pane>
+							<div class="layui-form-item">
 								<label class="layui-form-label">类别</label>
 								<div class="layui-input-block">
 									<select name="sorts" lay-verify="required">
@@ -150,7 +150,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="layui-form-item" pane>
+							<div class="layui-form-item">
 								<label class="layui-form-label">输入框</label>
 								<div class="layui-input-block">
 									<input type="text" name="title" required lay-verify="required" placeholder="请输入" autocomplete="off" class="layui-input"/>
@@ -158,8 +158,14 @@
 							</div>
 							<div class="layui-form-item">
 								<div class="layui-input-block">
-									<button class="layui-btn layui-btn-radius" lay-submit lay-filter="formDemo">查询</button>
-									<button type="reset" class="layui-btn layui-btn-radius layui-btn-primary">重置</button>
+									<div class="layui-row">
+										<div class="layui-col-md5">
+											<button class="layui-btn layui-btn-radius" lay-submit lay-filter="formDemo">查询</button>
+										</div>
+										<div class="layui-col-md5 layui-col-md-offset2">
+											<button type="reset" class="layui-btn layui-btn-radius layui-btn-primary">重置</button>
+										</div>
+									</div>
 								</div>
 							</div>
 						</form>
