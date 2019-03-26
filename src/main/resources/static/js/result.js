@@ -5,8 +5,7 @@ layui.use(['form','table','element'], function(){
 
     table.render({
         elem:'.layui-table',
-        height:100,
-        url:'',
+        url:'xxx',
         page:true,
         cols:[[
             {field:'id',title:'ID',width:120,sort:true,fixed:'left',align:'center'},

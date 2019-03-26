@@ -102,8 +102,8 @@
 		<div class="header">
 			<div class="layui-container layui-bg-black container">
 				<div class="layui-row">
-					<div class="layui-col-md2 title">微服务</div>
-					<div class="layui-col-md4 layui-col-md-offset6">
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md9 title">微服务</div>
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
 						<ul class="layui-nav  rightnav" lay-filter="">
 							<li class="layui-nav-item">
 						        <a href="javascript:;">
@@ -112,7 +112,6 @@
 						        <dl class="layui-nav-child">
 						          <dd><a href="javascript:;">个人资料</a></dd>
 						          <dd><a href="javascript:;">我的发布</a></dd>
-						          <dd><a href="javascript:;">安全设置</a></dd>
 						        </dl>
 						    </li>
 						    <li class="layui-nav-item"><a href="${rc.contextPath}/logout">退出
@@ -125,11 +124,11 @@
 		<div class="result-main">
 			<div class="result-modal">
 				<div class="layui-row">
-					<div class="layui-col-md10">
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md10">
 						<blockquote class="layui-elem-quote" id="title">查询详情</blockquote>
 					</div>
-					<div class="layui-col-md2 returnbtn">
-						<button class="layui-btn layui-btn-lg layui-btn-radius layui-btn-primary">
+					<div class="layui-col-xs6 layui-col-sm6 layui-col-md2 returnbtn">
+						<button class="layui-btn layui-btn-radius layui-btn-primary">
 							<i class="layui-icon">&#xe65c;</i>返回
 						</button>
 					</div>
@@ -137,37 +136,41 @@
 				<hr>
 				<div class="result-body">
 					<div class="layui-row layui-col-space30">
-						<div class="layui-col-md9">
+						<div class="layui-col-xs12 layui-col-sm12 layui-col-md9">
 							<div class="searchmodal">
-								<form class="layui-form" action="">
-									<div class="layui-form-item">
-										<div class="layui-inline">
-											<label class="layui-form-label">
-												<i class="iconfont iconleibie" style="color:#FFBF00;font-size: 25px;"></i>&nbsp;&nbsp;类别
-											</label>
-											<div class="layui-input-block selectblock">
-												<select name="sorts" lay-verify="required">
-													<option value=""></option>
-													<option value="0">导游</option>
-													<option value="1">代驾</option>
-													<option value="2">外卖</option>
-													<option value="3">摄影</option>
-												</select>
+								<div class="layui-row">
+									<form class="layui-form" action="">
+										<div class="layui-col-xs6 layui-col-sm6 layui-col-md5">
+											<div class="layui-form-item">
+												<label class="layui-form-label">
+														<i class="iconfont iconleibie" style="color:#FFBF00;font-size: 25px;"></i>&nbsp;&nbsp;类别
+												</label>
+												<div class="layui-input-block selectblock">
+													<select name="sorts" lay-verify="required">
+														<option value=""></option>
+														<option value="0">导游</option>
+														<option value="1">代驾</option>
+														<option value="2">外卖</option>
+														<option value="3">摄影</option>
+													</select>
+												</div>
 											</div>
 										</div>
-										<div class="layui-inline">
-											<label class="layui-form-label">输入</label>
-											<div class="layui-input-block inputblock">
-												<input type="text" name="title" required="" lay-verify="required" placeholder="请输入查询条件" autocomplete="off" class="layui-input"/>
+										<div class="layui-col-xs6 layui-col-sm6 layui-col-md5">
+											<div class="layui-form-item">
+												<label class="layui-form-label">输入</label>
+												<div class="layui-input-block inputblock">
+													<input type="text" name="title" required="" lay-verify="required" placeholder="请输入查询条件" autocomplete="off" class="layui-input"/>
+												</div>
 											</div>
 										</div>
-										<div class="layui-inline">
-											<button class="layui-btn layui-btn-radius layui-btn-normal"">
+										<div class="layui-col-xs11 layui-col-sm12 layui-col-md1 layui-col-xs-offset1 layui-col-md-offset1">
+											<button class="layui-btn layui-btn-radius layui-btn-normal">
 												<i class="layui-icon">&#xe615;</i>搜索
 											</button>
 										</div>
-									</div>
-								</form>
+									</form>
+								</div>
 							</div>
 							<table class="layui-table"lay-skin="row" lay-filter="test"></table>
 							<script type="text/html" id="barDemo">
@@ -175,32 +178,26 @@
 								<a class="layui-btn layui-btn-mini" lay-event="accept">接收</a>
 							</script>
 						</div>
-						<div class="layui-col-md3">
-							<!--<div class="recommend">
-								<div class="recommend-title">
-									<i class="iconfont iconhot" style="color:#E53939 ;font-size: 19px;"></i>&nbsp;&nbsp;热门推荐
-								</div>
-								<div class="recommend-body">推荐内容</div>
-								<div class="recommend-body">推荐内容</div>
-							</div>-->
+						<div class="layui-col-xs12 layui-col-sm12 layui-col-md3">
 							<div class="layui-card cardmodal">
-						<div class="layui-card-header cardtitle">
-							<i class="iconfont iconhot" style="color:#E53939 ;font-size: 19px;"></i> 热门推荐</div>
-								<div class="layui-card-body cardbody">
-									<ul>
-										<li>
-											<div class="layui-row">
-												<div class="layui-col-md9">
-													xxx寻物启事
+							<div class="layui-card-header cardtitle">
+								<i class="iconfont iconhot" style="color:#E53939 ;font-size: 19px;"></i> 热门推荐</div>
+									<div class="layui-card-body cardbody">
+										<ul>
+											<li>
+												<div class="layui-row">
+													<div class="layui-col-xs8 layui-col-sm8 layui-col-md9">
+														xxx寻物启事
+													</div>
+													<div class="layui-col-xs4 layui-col-sm1 layui-col-md2 layui-col-sm-offset3 layui-col-md-offset1">
+														<i class="iconfont iconjiaji" style="color:#d81e06;font-size: 25px;"></i>
+													</div>
 												</div>
-												<div class="layui-col-md2  layui-col-md-offset1">
-													<i class="iconfont iconjiaji" style="color:#d81e06;font-size: 25px;"></i>
-												</div>
-											</div>
-										</li>
-										<li>xxx小区宠物丢失</li>
-										<li>xxx及时达寻找顺路人，有报酬！</li>
-									</ul>
+											</li>
+											<li>xxx小区宠物丢失</li>
+											<li>xxx及时达寻找顺路人，有报酬！</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>

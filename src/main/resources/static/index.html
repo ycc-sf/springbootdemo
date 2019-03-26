@@ -28,7 +28,7 @@
   		margin: 20px auto;
   	}
   	.rowdiv{
-  		overflow: hidden;
+  		/*overflow: hidden;*/
   	}
   	.rowbody{
   		width: 100%;
@@ -80,8 +80,8 @@
 	<div class="header">
 		<div class="layui-container layui-bg-black container">
 			<div class="layui-row rowdiv">
-				<div class="layui-col-md2 title">基于springBoot和。。。微需求平台</div>
-				<div class="layui-col-md4 layui-col-md-offset6">
+				<div class="layui-col-xs6 layui-col-sm6 layui-col-md9 title">基于springBoot和。。。微需求平台</div>
+				<div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
 					<ul class="layui-nav rightnav" lay-filter="">
 						<li class="layui-nav-item">
 					        <a href="javascript:;">
@@ -91,7 +91,7 @@
 					        <dl class="layui-nav-child">
 					          <dd><a href="javascript:;">个人资料</a></dd>
 					          <dd><a href="javascript:;">我的发布</a></dd>
-					          <dd><a href="javascript:;">安全设置</a></dd>
+					          <!--<dd><a href="javascript:;">安全设置</a></dd>-->
 					        </dl>
 					    </li>
 					    <li class="layui-nav-item"><a href="/login.html">退出</a></li>
@@ -102,7 +102,7 @@
 	</div>
 	<div class="mainbody">
 		<div class="layui-row layui-col-space20 rowbody">
-			<div class="layui-col-md3">
+			<div class="layui-col-xs12 layui-col-sm12 layui-col-md3">
 				<div class="layui-card cardmodal">
 					<div class="layui-card-header cardtitle">
 						<i class="iconfont iconhot" style="color:#E53939 ;font-size: 19px;"></i> 最新发布</div>
@@ -110,10 +110,10 @@
 						<ul>
 							<li>
 								<div class="layui-row">
-									<div class="layui-col-md9">
+									<div class="layui-col-xs8 layui-col-sm8 layui-col-md9">
 										xxx寻物启事
 									</div>
-									<div class="layui-col-md2  layui-col-md-offset1">
+									<div class="layui-col-xs4 layui-col-sm1 layui-col-md2 layui-col-sm-offset3 layui-col-md-offset1">
 										<i class="iconfont iconjiaji" style="color:#d81e06;font-size: 25px;"></i>
 									</div>
 								</div>
@@ -124,15 +124,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="layui-col-md6">
+			<div class="layui-col-xs12 layui-col-sm12 layui-col-md6">
 				<div class="mapmodal" id="mapContainer">
 					<div style="text-align: center;line-height: 500px;">
 					<i class="layui-icon layui-anim layui-anim-rotate layui-icon-loading-1" style="font-size: 60px;color:#01AAED;"></i>
 					</div>
-					<!--<img src="images/map.png" class="mapsize"/>-->
 				</div>
 			</div>
-			<div class="layui-col-md3">
+			<div class="layui-col-xs12 layui-col-sm12 layui-col-md3">
 				<div class="layui-card cardmodal">
 					<div class="layui-card-header cardtitle">搜索&nbsp;
 						<i class="iconfont iconsousuoxiangqing" style="font-size:20px;color:#4CADE9;"></i></div>
@@ -159,10 +158,10 @@
 							<div class="layui-form-item">
 								<div class="layui-input-block">
 									<div class="layui-row">
-										<div class="layui-col-md5">
+										<div class="layui-col-xs6 layui-col-sm6 layui-col-md5">
 											<button class="layui-btn layui-btn-radius" lay-submit lay-filter="formDemo">查询</button>
 										</div>
-										<div class="layui-col-md5 layui-col-md-offset2">
+										<div class=" layui-col-xs6 layui-col-sm6 layui-col-md5 layui-col-md-offset2">
 											<button type="reset" class="layui-btn layui-btn-radius layui-btn-primary">重置</button>
 										</div>
 									</div>
