@@ -9,7 +9,7 @@ import java.sql.Timestamp;
 @Data
 @ApiModel(value = "Comment", description = "评论")
 public class Comment {
-    @ApiModelProperty("id")
+    @ApiModelProperty("id" )
     private Long id;
     @ApiModelProperty("对应info的id")
     private Long infoId;

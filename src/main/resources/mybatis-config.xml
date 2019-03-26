@@ -29,7 +29,8 @@
         <setting name="callSettersOnNulls" value="true"/>
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <!-- 打印查询语句 -->
-        <setting name="logImpl" value="LOG4J2" />
+        <!--<setting name="logImpl" value="LOG4J2" />-->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
         <!-- 转驼峰命名法 -->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>

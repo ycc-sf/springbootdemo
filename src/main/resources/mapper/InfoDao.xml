@@ -3,5 +3,24 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.springbootdemo.dao.InfoDao">
+    <select id="selectRangeInfo" resultType="Info">
+        SELECT *
+        FROM r_info
+        WHERE location_x > #{x} - #{range}
+        AND location_y > #{y} - #{range}
+        AND location_x &lt; #{x} + #{range}
+        AND location_y &lt; #{y} + #{range}
+        <if test="title != null and title != ''" >
+            AND info_title LIKE (CONCAT('%',#{title},'%'))
+        </if>
+        <if test="infoType != null and infoType != ''" >
+            AND type_id = #{infoType}
+          </if>
+        ORDER BY id DESC
+        LIMIT 0, #{number}
+    </select>
 
+    <insert id="insertInfo">
+        insert into r_info(info_title) value(#{title})
+    </insert>
 </mapper>
