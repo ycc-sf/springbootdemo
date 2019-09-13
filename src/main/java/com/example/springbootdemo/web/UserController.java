@@ -1,8 +1,8 @@
 package com.example.springbootdemo.web;
 
-import com.example.springbootdemo.common.RestResponse;
 import com.example.springbootdemo.entity.UserInfo;
 import com.example.springbootdemo.service.UserService;
+import com.example.springbootdemo.common.RestResponse;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

@@ -1,7 +1,7 @@
 package com.example.springbootdemo.dao;
 
-import com.example.springbootdemo.entity.Info;
 import com.example.springbootdemo.entity.UserInfo;
+import com.example.springbootdemo.entity.Info;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
